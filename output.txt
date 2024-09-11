@@ -1,0 +1,216 @@
+Script started on Sun 26 Nov 2023 03:14:16 PM HST
+]0;hoangv@uhx02:~/project2[?1034huhx02:/home/h/hoangv/project2% ./project
+
+Welcome to the bank
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+ad
+
+Enter your account number: 123
+Enter your name: Victor A HoaNG  ng
+Enter your address: 4123 Pineapple Dr
+97625
+
+
+Your record has been successfully added.
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+add
+
+Enter your account number: 124
+Enter your name: Allen 
+Enter your address: 5121 Apple St
+Honolulu Hawaii
+91921
+
+
+Your record has been successfully added.
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+print
+
+Account Number: 124
+Name: Allen 
+Address: 5121 Apple St
+Honolulu Hawaii
+91921
+
+Account Number: 123
+Name: Victor A Hoang
+Address: 4123 Pineapple Dr
+97625
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+find
+Enter account number you would like to find: 123
+
+Account Number: 123
+Name: Victor A Hoang
+Address: 4123 Pineapple Dr
+97625
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+delete
+Enter the account number you would like to delete: 123
+
+Record not found
+
+Record has been successfully deleted
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+delete 124
+Enter the account number you would like to delete: 
+Record has been successfully deleted
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+print
+
+There are no files on record.
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+q
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% ./project_debug
+
+Welcome to the bank
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+ad
+
+Enter your account number: 123
+Enter your name: Victor A Hoang
+Enter your address: 4123 Pineapple Dr
+97625
+
+
+addRecord debug: Account Number: 123, Name: Victor A Hoang, Address: 4123 Pineapple Dr
+97625
+
+Your record has been successfully added.
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+print
+
+printAllRecords debug: prints all existing records on file
+Account Number: 123
+Name: Victor A Hoang
+Address: 4123 Pineapple Dr
+97625
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+find
+Enter account number you would like to find: 123
+
+findRecord debug: finds record with account number: 123
+
+Account Number: 123
+Name: Victor A Hoang
+Address: 4123 Pineapple Dr
+97625
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+delete
+Enter the account number you would like to delete: 123
+
+deleteRecord debug: deletes record with account number: 123
+Record has been successfully deleted
+
+Select and option to continue...
+
+add: add a new record into the system's database
+print: prints all records currently stored within the database
+find: find record of account number within the database
+delete: delete an existing record with account number
+quit: exit the program
+
+qu
+
+writefile debug: writes existing files on record into data.txt
+cleanup debug: deallocating all memory on file on program termination
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% exit
+exit
+
+Script done on Sun 26 Nov 2023 03:17:16 PM HST

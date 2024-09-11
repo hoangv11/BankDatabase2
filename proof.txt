@@ -1,0 +1,19 @@
+Script started on Sun 26 Nov 2023 03:12:50 PM HST
+]0;hoangv@uhx02:~/project2[?1034huhx02:/home/h/hoangv/project2% touch *.cpp
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% make -f release.mak
+g++ -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project user_interface.o llist.o
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% make -f release.mak
+make: `project' is up to date.
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% touch *.cpp
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% make -f debug.mak
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c user_interface.cpp
+g++ -DDEBUG -ansi -pedantic-errors -Wall -c llist.cpp
+g++ -o project_debug user_interface.o llist.o
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% make -f debug.mak
+make: `project_debug' is up to date.
+]0;hoangv@uhx02:~/project2uhx02:/home/h/hoangv/project2% exit
+exit
+
+Script done on Sun 26 Nov 2023 03:14:04 PM HST
